@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <div class="outer1">
+
+      <div id="div1" class="about">
+        <h1>ABOUT</h1>
+      </div>
+      <div id="lower" class="lower">
+        <p>My name is Ahmed Farag. I recently graduated from Rutgers University and obtained my bachelors in Computer Science with a minor in Psychology.
+        I initially started my college career as a Biology Major due to my curiosity of how things worked. Why not learn about how we work as human beings?</p>
+      </p><img src="images/bounce.jpg" class="img23"><p>My creative side started to come out as well as I entered college with music. I started to mess around with cool DJ technology and practice the intricacies of mixing music as well as creating it.
+        I eventually made my way to being able to perform before <i>The Chainsmokers</i> on a yacht which was amazing. I had an interview before that performance and they asked
+        me how technology allowed me to learn the skills quicker and that is when my passion changed and decided to pick up Computer Science as my major to learn more about how technology works.
+      </p><img src="images/study.jpg" class="img33"><p>I decided to broaden my horizons and study abroad my Junior year in Berlin, Germany. The experience was a once in a lifetime thing where I had the freedom to travel through Europe with no worries. It opened my
+        eyes to the different cultures and was a huge life lesson for me. While abroad I worked with <i>Weekend Student Adventures(WSA)</i> to help branch out their campaign but found myself working with their iOS team which is where my software development began.
+        After that I was hooked on this aspect of computer science and pursued it further when I returned home.</p>
+        <p>4 years later I have been involved in countless projects including a real world wayfinding application that is currently being used in a major hospital in New Jersey and soon to branch out to others.
+        These last years have really enriched my knowledge in the field of Computer Science but there is still more to learn as technology changes every day!</p>
+      </div>
+
+    </div>
+
+    <div class="outer2">
+
+      <div id="div2" class="java"  >
+        <h1>JAVA</h1>
+      </div>
+      <div id="lower" class="lower">
+          <img src="images/java1.png" class="img1" align="left"><h1>JAVA(Object Oriented Programming)</h1><p>Java is a mid-level programming language that focuses more on building applications that can run on multiple platforms rather than taking control of the internals of the computer.
+          It is in my opinion a great way to first introduce yourself into computer programming and learn about/practice the most commonly used data structures. This is the first language I learned when I chose computer science as my major of study and it made things a lot easier to understand.
+          I learned all about the different data structures there are ranging from basic arrays to building complex graphs. Throughout my studies in computer science I have been able to implement all of these data structures in the problems that were thrown my way.</p>
+          <hr>
+            <h1>Photo Album</h1><img src="images/photo.png" align="right" class="img2"><p>My first true software project dealt with building a working image viewer. This application allowed users to import photos from their desktop into an albumn of their choosing and give it a caption as well as multiple tags.
+            The capabilities in the users hands were things they were familiar with such as adding/deleting a picture or albumn. We did not want to do anything too fancy or out of the ordinary because we wanted the application to be used by everyone no matter what their technical background is. I, however, would love to jump in the realm of innovation and create a new norm.</p>
+          <hr>
+            <h1>Android Chess</h1><img src="images/chess.png" align="center" class="img3"><p>The chess project we worked on really tested our knowledge of object oriented programming and inheritence. There are so many different pieces in chess that have different moves but all share some qualities. We made a master class called Piece which would get implemented by each subclass/piece.
+            This was important because when we built the board for the pieces to go on they all had to have the same functions to work. The board was of type Piece but since we had each different piece implement that class we could instantiate each different piece on the board. After building the backbone of the whole application we merged the code over to the android platform and we really saw the project come to life.
+            Viewing an application through the command line/terminal is one thing but to be able to view something physical that could potentially be in many users hands across the globe was what drove to love software development.</p>
+          <hr>
+            <h1>Client/Server Chat Room</h1><p>The realm of TCP/IP and Internet Technology really brought my curiosity but also creativity out. The client-server chatroom I built allowed me to fully understand how TCP works and sends datagram packets back and forth through machines/routers. The chat room consisted of one running server that would accept clients constantly. Each client that connected will get a copy of the previous conversation that took place
+              before they joined so they would be able to catch up. Another feature that is commonly used in chat is the ability to private message someone. Although this was application was developed strictly for command line/terminal use, I still wanted to bring it alive with vibrate colors for each user in the room and show server status.</p>
+          <hr>
+            <h1>File Transfer</h1><p class="last">The final project internet technology project I worked on delved into the intricacies of UDP and the different broadcasting methods that were available through this method of communication. A simple file transfer program was built to be able to send a file from one computer to another using UDP. The main focus here was to make sure every file to arrive was complete and in order.
+              Since the computers were on the same hub/router packet loss was not likely to happen but we simulated it by giving a percent rate of when it should drop the packet. This pushed the program to ask for the packets it did not recieve and make sure it was placed in the correct spot in the file.</p>
+      </div>
+    </div>
+
+    <div class="outer3">
+
+      <div id="div3" class="c" >
+        <h1>C</h1>
+      </div>
+      <div id="lower" class="lower">
+        <img src="images/c.png" align="left" class="img1"><h1>Y86 Emulator</h1><p>C was the second major language I picked up and stuck with for quite some time. It has really helped me understand the inner workings of a machine due to it being a low-level language. I have discovered how each stack grows, how methods appear in the frame which you have to be mindful of with C because of black-hat hacking, and even the intricacies of how memory is stored and managed. It is a very powerful language which coming from Java freightend me a little but after time using it I discovered how much I could actually do with it.</p>
+        <p>The first big project I built with C was a Y86 emulator. This emulator would take in the machine code from a program and translate it/perform the assembly commands it had. For the project I had to build a block of memory for the code which it had the different components of memory such as the text area, the heap, stack, and even some registers. The programs that were run on the emulator were a decrypted code that told you what you needed to do in class and a fibonnaci generator that took in a number and gave you the fibonnaci number at that location.</p>
+        <hr>
+        <h1>Malloc/Free</h1><p>Malloc and Free were the next two big things I focused on using C. The project was simple, recreate malloc and free without calling the functions. The file would then be imported into a program that used our functions of malloc and free to do som work with them. The way we did this was had a block of memory as a global variable with around 5000 bytes allocated to it already. When someone would call we would check the meta data at each block in the memory and see if it was free and could hold the amount they were asking for. If so they pointer to that memory location would be given to the user.
+          This was a simple project but it really helped me to understand the "in's and out's" of malloc and free and the different ways that they could potentially find the spot for a malloc request.</p>
+        <hr>
+        <h1>File Emulation</h1><p>This project sort of plays on the Java project I worked on that dealt with file transfers. This time we had a server that listened for connections from a user that wanted to do some work on a remote file in the system. They could ask the server to open a file, read from a file, write to a file, or close the file. The server had space for about 20 users to be joined at the same time but this number could have been changed easily. This project allowed me to understand truly how multi-threading really worked such as if the 2 threads are on the same core they are not truly running in parallel but actually switching quickly between one another.
+        <hr>
+        <h1>Compiler/Parser</h1><p class="last">The final C project I worked on was a mix of a Compiler and a Parser. I solely worked on the parser while the professor wrote up the compiler which would turn the code into runnable code. The goal was to make an LL1 parse diagram of the given language where we could then implement it easily as a FSM within the program. Each state was a different symbol in the language and one state would pass a new symbol if it didn't violate the language to the next step in the machine or it would return an error like a compiler would do.</p>
+      </div>
+    </div>
+
+    <div class="outer4">
+
+      <div id="div4" class="html" >
+        <h1>HTML AND ARDUINO</h1>
+      </div>
+      <div id="lower" class="lower">
+        <h1><u>The College Chooser</u></h1><img src="images/tcc.png" class="img1" align="center"><p>The College Chooser is a site I designed and built to help students who need to consider their financial situation when choosing a college. It could also be used by students already in college and would like to estimate
+        how long it will take them to pay off their loans. To use the website, all you need to do is enter in the college name as well as your major, whether you will move into an apartment after college, and how much percent of your pay check you are willing to put towards paying off those loans. Once you click the <i>Is it worth it?</i> button
+        you will be given an answer on how many years, rounded to the nearest year, that it will take for you to pay off those loans based off of the information provided. Another feature of the site is that you can put in the amount of years(max) that you want to take to pay off your loans as well as the other information above except for the college and a list of 50(max) colleges will be shown to you that fit that criteria.</p>
+        <p class="last">The website was designed using a mix of HTML, CSS, and javascript. The database was set up using Amazons RDS database using SQL. PHP was used when the user needed to receive information from the database and output it to the website. This was used in every page except for the home page. The home page though has a hidden easter egg inside of it where if you typed in the word <i>"gamer"</i> you would see a hidden menu
+        that allows you to use some cool features. You can view the website <a href="http://sample-env.qsqmn93xmz.us-east-1.elasticbeanstalk.com/TCC/home.html">here</a>.</p>
+        <h1>Smart Chair</h1>
+        <p>The smart chair was design by a group of senior Engineering Majors for their file project. The design was made to help people that have poor posture while sitting down at their desk. They collected a lot of data to figure out the critical angle of the spine as well as the desired height of the elbows.
+        With all this data the chair is able to find out if the user is sitting in a good posture or not via pressure sensors and make adjustments to the lumbar and arm supports.</p>
+        <p class="last"> To make all of this happen one of the engineers and I worked together to code the functionality of the chair. We started out by drawing out the plan and the finite state machine that the chair would follow. From there we coded in the arduino platform specifically to our plan by using each state as a check point.
+        Once one state was finished it would go to the next one until it reached the accepting state. There it would wait to see if the user got up or changed positions where it would need to make adjustments to the supports. This was an amazing opportunity to work on because it provided a real life benefit and I was able to make something physical come to life.
+      </div>
+    </div>
+
+    <div class="outer5">
+
+      <div id="div5" class="experience" >
+        <h1>EXPERIENCE</h1>
+      </div>
+      <div id="lower" class="lower">
+      <h1><u>WORK EXPERIENCE</u><h1>
+      <img src="images/atlantic.jpg" align="center" class="img1"><h2>Atlantic Health Systems</h2><h5>May 2016 - Present</h5><p>My position on the Atlantic Health team was an <i>Information Support Specialist</i> which dealt with educating our patients and visitors about the various health technology resources available to them to help lead a healthier lifestyle. Products ranged from Activity Trackers to Wireless blood pressure monitors as well as many apps available to them on the App Store/Google Play Store.</p>
+      <p> I also played a role in the development and support of the wayfinding application <i>Take Me There - Overlook</i>. I helped/advised in the testing of the wayfinding application in its pre- release phase and monitored any changes or updates that needed to be made post-release.</p>
+      <hr>
+      <img src="images/wsa.png" align="center" class="img2"><h2 class="wsa">Weekend Student Adventures</h2><h5 class="small">Dec 2014 - May 2015</h5><p>During my study abroad experience I decided to take an internship with Weekend Student Adventure or WSA. Their initiative was to provide package trips to students such as myself studying abroad for an affordable price and included everything from hostels to activities, all they had to do was arrange their own way of get to and from the destination. My role on the team was to maintain the companies social media pages by posting effective updates about trips to branch the brand to multiple countries across Europe.
+      I worked with the WSA team across the countries to collectively determine cost effective advertisement campaigns. I also had the opportunity to work on their iOS application where I provided the app developers with extensive outlines for content within the WSA app and gave feedback on errors that needed updating/fixing.</p>
+      <hr>
+      <img src="images/keller.jpg" align="center" class="img3"><h2 class="wsa">The Keller League</h2><h5 class="small">Sept 2012 - May 2014</h5><p class="last"> The Keller League is a Rutgers owned fraternity intramural organization. We set up different sporting tournaments exclusively for the fraternaties at Rutgers. I started out as a data tracker which required me to actively record data that the league required play by play as well as keep efficient notes pertaining to infractions and misconduct for weekly reports. I eventually worked my way up to become league supervisor which gave me the responsabilities of ensuring proper and efficient function of the staff as a whole to deliver the most effective experience for clients. I also held weekly meetings with office staff to ensure all paper work required for the league was in order and ready for use and uploaded into our database. </p>
+    </div>
+
+    </div>
+
+  </body>
+</html>
